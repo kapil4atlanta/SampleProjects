@@ -1,7 +1,6 @@
 //
 //  Movie.swift
 //  favourite-movies-app
-//
 //  Created by Kapil Rathan on 10/7/17.
 //  Copyright © 2017 Kapil Rathan. All rights reserved.
 //
