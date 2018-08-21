@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "32667e6d30a685b7e4a8a640fa30d33f"
+build_time: [1532044614, 443611000]
+inputs:
+  "/Users/kr469g/Documents/Debug/Swift/test/test/ViewController.swift": [9223372036, 854775807]
+  "/Users/kr469g/Documents/Debug/Swift/test/test/AppDelegate.swift": [9223372036, 854775807]

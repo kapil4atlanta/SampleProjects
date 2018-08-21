@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "6f4206df5055fb09974b174613f08595"
+build_time: [1529616463, 465431000]
+inputs:
+  "/Users/kr469g/Documents/Debug/Swift/test/test/ViewController.swift": [1529615827, 0]
+  "/Users/kr469g/Documents/Debug/Swift/test/test/AppDelegate.swift": [1529615827, 0]
+  "/Users/kr469g/Documents/Debug/Swift/test/test/DFWButton.swift": [1529616254, 0]

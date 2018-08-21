@@ -17,10 +17,18 @@
 		0B94289F1F89C37D006965DD /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B94289E1F89C37D006965DD /* Movie.swift */; };
 		0B9428A11F89F086006965DD /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9428A01F89F086006965DD /* SearchViewController.swift */; };
 		0B9428A31F89FB71006965DD /* HttpHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9428A21F89FB71006965DD /* HttpHandler.swift */; };
+		0BEFB1B9208DA8F7006F4A20 /* favourite_movies_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEFB1B8208DA8F7006F4A20 /* favourite_movies_appTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		0B43C0002089ADE700F06732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B94287F1F89BC71006965DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B9428861F89BC71006965DD;
+			remoteInfo = "favourite-movies-app";
+		};
+		0BEFB1BB208DA8F7006F4A20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0B94287F1F89BC71006965DD /* Project object */;
 			proxyType = 1;
@@ -44,6 +52,9 @@
 		0B94289E1F89C37D006965DD /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		0B9428A01F89F086006965DD /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		0B9428A21F89FB71006965DD /* HttpHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpHandler.swift; sourceTree = "<group>"; };
+		0BEFB1B6208DA8F7006F4A20 /* favourite-movies-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "favourite-movies-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEFB1B8208DA8F7006F4A20 /* favourite_movies_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favourite_movies_appTests.swift; sourceTree = "<group>"; };
+		0BEFB1BA208DA8F7006F4A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +66,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0B9428841F89BC71006965DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BEFB1B3208DA8F7006F4A20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -114,7 +132,11 @@
 			children = (
 				0B9428891F89BC72006965DD /* favourite-movies-app */,
 				0B43BFF320898E3B00F06732 /* Resources */,
+				0B43BFF620898EBD00F06732 /* Models */,
+				0B43BFF420898E9F00F06732 /* Views */,
+				0B43BFF520898EB000F06732 /* Controllers */,
 				0B43BFFC2089ADE600F06732 /* favourite-movies-appUITests */,
+				0BEFB1B7208DA8F7006F4A20 /* favourite-movies-appTests */,
 				0B9428881F89BC72006965DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,6 +146,7 @@
 			children = (
 				0B9428871F89BC72006965DD /* favourite-movies-app.app */,
 				0B43BFFB2089ADE600F06732 /* favourite-movies-appUITests.xctest */,
+				0BEFB1B6208DA8F7006F4A20 /* favourite-movies-appTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,12 +155,18 @@
 			isa = PBXGroup;
 			children = (
 				0B94288A1F89BC72006965DD /* AppDelegate.swift */,
-				0B43BFF620898EBD00F06732 /* Models */,
-				0B43BFF520898EB000F06732 /* Controllers */,
-				0B43BFF420898E9F00F06732 /* Views */,
 				0B9428961F89BC72006965DD /* Info.plist */,
 			);
 			path = "favourite-movies-app";
+			sourceTree = "<group>";
+		};
+		0BEFB1B7208DA8F7006F4A20 /* favourite-movies-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BEFB1B8208DA8F7006F4A20 /* favourite_movies_appTests.swift */,
+				0BEFB1BA208DA8F7006F4A20 /* Info.plist */,
+			);
+			path = "favourite-movies-appTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +207,24 @@
 			productReference = 0B9428871F89BC72006965DD /* favourite-movies-app.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0BEFB1B5208DA8F7006F4A20 /* favourite-movies-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BEFB1BD208DA8F7006F4A20 /* Build configuration list for PBXNativeTarget "favourite-movies-appTests" */;
+			buildPhases = (
+				0BEFB1B2208DA8F7006F4A20 /* Sources */,
+				0BEFB1B3208DA8F7006F4A20 /* Frameworks */,
+				0BEFB1B4208DA8F7006F4A20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BEFB1BC208DA8F7006F4A20 /* PBXTargetDependency */,
+			);
+			name = "favourite-movies-appTests";
+			productName = "favourite-movies-appTests";
+			productReference = 0BEFB1B6208DA8F7006F4A20 /* favourite-movies-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,6 +244,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
+					0BEFB1B5208DA8F7006F4A20 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0B9428861F89BC71006965DD;
+					};
 				};
 			};
 			buildConfigurationList = 0B9428821F89BC71006965DD /* Build configuration list for PBXProject "favourite-movies-app" */;
@@ -214,6 +266,7 @@
 			targets = (
 				0B9428861F89BC71006965DD /* favourite-movies-app */,
 				0B43BFFA2089ADE600F06732 /* favourite-movies-appUITests */,
+				0BEFB1B5208DA8F7006F4A20 /* favourite-movies-appTests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +286,13 @@
 				0B9428951F89BC72006965DD /* LaunchScreen.storyboard in Resources */,
 				0B9428921F89BC72006965DD /* Assets.xcassets in Resources */,
 				0B9428901F89BC72006965DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BEFB1B4208DA8F7006F4A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +320,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0BEFB1B2208DA8F7006F4A20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEFB1B9208DA8F7006F4A20 /* favourite_movies_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -267,6 +335,11 @@
 			isa = PBXTargetDependency;
 			target = 0B9428861F89BC71006965DD /* favourite-movies-app */;
 			targetProxy = 0B43C0002089ADE700F06732 /* PBXContainerItemProxy */;
+		};
+		0BEFB1BC208DA8F7006F4A20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B9428861F89BC71006965DD /* favourite-movies-app */;
+			targetProxy = 0BEFB1BB208DA8F7006F4A20 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -463,6 +536,66 @@
 			};
 			name = Release;
 		};
+		0BEFB1BE208DA8F7006F4A20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "favourite-movies-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.favourite-movies-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/favourite-movies-app.app/favourite-movies-app";
+			};
+			name = Debug;
+		};
+		0BEFB1BF208DA8F7006F4A20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "favourite-movies-appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.favourite-movies-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/favourite-movies-app.app/favourite-movies-app";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -489,6 +622,15 @@
 			buildConfigurations = (
 				0B94289A1F89BC72006965DD /* Debug */,
 				0B94289B1F89BC72006965DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BEFB1BD208DA8F7006F4A20 /* Build configuration list for PBXNativeTarget "favourite-movies-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEFB1BE208DA8F7006F4A20 /* Debug */,
+				0BEFB1BF208DA8F7006F4A20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

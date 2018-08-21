@@ -34,21 +34,6 @@ class favourite_movies_appUITests: XCTestCase {
         
     }
     
-    func testInputText(){
-        
-        let app = XCUIApplication()
-        app.buttons["Find Movie"].tap()
-        let searchTextField = app.textFields["searchTextField"]
-        searchTextField.tap()
-        searchTextField.typeText("star wars")
-        
-        app.buttons["Search"].tap()
-        let searchtableTable = app.tables["searchTable"]
-        searchtableTable.children(matching: .cell).element(boundBy: 0).buttons["Fav"].tap()
-        app.navigationBars["Search Movies"].buttons["FAV Movies"].tap()
-        
-        
-    }
     
     func testSearchMovieAddFavourite(){
         

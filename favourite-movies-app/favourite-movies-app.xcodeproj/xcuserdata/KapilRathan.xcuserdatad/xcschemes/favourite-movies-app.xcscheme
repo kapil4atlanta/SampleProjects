@@ -38,6 +38,16 @@
                ReferencedContainer = "container:favourite-movies-app.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0BEFB1A7208DA8AB006F4A20"
+               BuildableName = "favourite-movies-appTests.xctest"
+               BlueprintName = "favourite-movies-appTests"
+               ReferencedContainer = "container:favourite-movies-app.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
